@@ -1,6 +1,7 @@
 .menu
 {
   background-color: #009999;
+  font-family: "Sans-serif";
 }
 
 .menu a
@@ -14,7 +15,15 @@
   text-decoration:underline;
 }
 
-.menu a:first-child
+.menu li 
 {
+  display:inline;
+}
+
+.menu ul > li:first-child{
   
+  float: right;
+  margin-right: 150px;
+  font-family: "Sans-serif";
+  border:2px none white;
 }

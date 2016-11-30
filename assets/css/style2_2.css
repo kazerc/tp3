@@ -1,0 +1,68 @@
+.menu
+{
+  background-color: #009999;
+  font-family: "Sans-serif";
+}
+
+.menu a
+{
+  color: #FFFFFF;
+  text-decoration:none;
+}
+
+.menu a:hover
+{
+  text-decoration:underline;
+}
+
+.menu li 
+{
+  display:inline;
+}
+
+.menu ul > li:first-child{
+  
+  float: right;
+  margin-right: 150px;
+  font-family: "Sans-serif";
+  border:1px solid white;
+  border-radius:5px;
+}
+
+@media screen and (max-width:600px){
+.menu
+{
+  background-color: #009999;
+  font-family: "Sans-serif";
+}
+
+.menu a
+{
+  color: #FFFFFF;
+  text-decoration:none;
+}
+
+.menu a:hover
+{
+  text-decoration:underline;
+}
+
+.menu li
+{
+  color:#009999;  
+  display:block;
+  text-align:center;
+}
+
+.menu ul > li:first-child{
+  margin-right:5px;
+  font-family: "Sans-serif";
+  border:1px solid white;
+  border-radius: 5px;
+  float: none;
+  text-align:center;
+}
+ .menu ul{
+    margin-left:-35px
+  }
+}
